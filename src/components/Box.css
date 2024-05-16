@@ -1,0 +1,84 @@
+/* Box.css */
+.box-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-card {
+  flex: 1;
+  margin: 10px;
+  padding-left: 10px;
+  padding-top: -5px;
+  padding-bottom: -5px;
+  border-radius: 5px;
+  text-align: left;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.boxes .confirmed {
+  background-color: rgb(250, 167, 167);
+  color: rgb(255, 0, 0);
+}
+
+.boxes .active {
+  background-color: rgb(178, 178, 249);
+  color: blue;
+}
+
+.boxes .recovered {
+  background-color: rgb(162, 248, 162);
+  color: green;
+}
+
+.boxes .deceased {
+  background-color: rgb(187, 185, 185);
+  color: rgb(76, 76, 76);
+}
+
+.state-list {
+  text-align: right;
+  font-weight: bold;
+  color: red;
+}
+
+.info {
+  display: flex;
+  min-height: 30px;
+  justify-content: space-between;
+}
+
+.current-state .update {
+  flex: 1;
+}
+
+.current-state {
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 28px;
+  font-weight: bolder;
+  color: brown;
+}
+
+.update {
+  padding-right: 5px;
+  text-align: right;
+}
+
+.update .top {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(124, 243, 124);
+}
+
+.update .bottom {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}

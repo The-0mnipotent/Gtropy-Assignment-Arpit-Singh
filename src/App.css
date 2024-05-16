@@ -1,0 +1,29 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation {
+  width: 80px;
+  height: 100vh;
+  flex: 0 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    width: 50px;
+  }
+}
+
+.main {
+  flex: 1;
+  max-height: 100vh;
+
+  display: flex;
+}
+
+.section {
+  flex: 1;
+}

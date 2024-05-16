@@ -1,0 +1,62 @@
+/* Table.css */
+table {
+  width: 100%;
+  max-height: 650px;
+  border-collapse: collapse;
+  table-layout: fixed; /* Set table layout to fixed */
+  background-color: white;
+  border-radius: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  width: 20%; /* Divide table width equally among five columns */
+}
+
+th {
+  color: rgb(230, 100, 53);
+  background-color: white;
+  font-weight: 800;
+}
+
+tr:hover {
+  background-color: #f0f0f0; /* Change background color on row hover */
+}
+
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+/* Specific hover effects based on cell content */
+td.confirmed:hover {
+  background-color: rgb(250, 167, 167);
+  color: rgb(255, 0, 0);
+}
+
+td.active:hover {
+  background-color: rgb(178, 178, 249);
+  color: blue;
+}
+
+td.recovered:hover {
+  background-color: rgb(162, 248, 162);
+  color: green;
+}
+
+td.deceased:hover {
+  background-color: rgb(187, 185, 185);
+  color: rgb(76, 76, 76);
+}
+
+thead {
+  position: sticky;
+  top: 0;
+}

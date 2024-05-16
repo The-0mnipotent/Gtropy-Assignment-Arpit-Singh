@@ -1,0 +1,17 @@
+/* SecondSection.css */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.heading {
+  height: 15%;
+}
+
+.main-container {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+}

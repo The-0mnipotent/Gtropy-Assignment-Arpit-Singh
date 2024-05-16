@@ -1,0 +1,15 @@
+/* Chart.css */
+.chart-container {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.chart-half {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Additional styling for DoughnutChart and LineChart components can be added here */
